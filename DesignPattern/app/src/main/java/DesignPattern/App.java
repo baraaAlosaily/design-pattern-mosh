@@ -13,8 +13,14 @@ public class App {
 //        account1.deposit(10);
 //        account1.withDrawel(5);
 //        System.out.println(account1.getAmount());
-        MailServices mailServices1=new MailServices();
-        mailServices1.sendEmail();
+//        MailServices mailServices1=new MailServices();
+//        mailServices1.sendEmail();
+//        var textBox=new TextBox();
+        drawUIControl(new TextBox());
+    }
+
+    public static void drawUIControl(UIControl control){
+        control.draw();
     }
 //    public static TaxCalculator getCalculator(){
 //        return new TaxCalculator2019();
